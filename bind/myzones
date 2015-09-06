@@ -1,0 +1,11 @@
+key "devops.it." {
+    algorithm hmac-md5;
+    secret "KcOJB+bzkF0PV7+3tU0+JA==";
+};
+
+zone "devops.it" {
+        type master;
+        file "/var/lib/bind/db.devops.it";
+        allow-update { key "devops.it."; };
+};
+
