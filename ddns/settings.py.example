@@ -1,0 +1,6 @@
+KEY = 'Kdevops.it.+157+62009.key'
+NAME_SERVER = '172.17.42.1'
+ZONE = 'devops.it'
+DOMAINS = {
+    '': 'webapp.devops.it'
+}
