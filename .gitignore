@@ -1,2 +1,3 @@
 ddns/settings.py
 *.pyc
+.ipynb_checkpoints
